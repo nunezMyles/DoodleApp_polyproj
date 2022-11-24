@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doodle_203149T", "Doodle_203149T.csproj", "{2C1312F7-CD1C-4660-807E-F8E79B649E71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8582B594-4697-473E-AEAC-1E4893B325F1}"
+	ProjectSection(SolutionItems) = preProject
+		..\Doodle_203149T_v2_MainForm\MainForm_203149T.Designer.cs = ..\Doodle_203149T_v2_MainForm\MainForm_203149T.Designer.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C1312F7-CD1C-4660-807E-F8E79B649E71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C1312F7-CD1C-4660-807E-F8E79B649E71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C1312F7-CD1C-4660-807E-F8E79B649E71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C1312F7-CD1C-4660-807E-F8E79B649E71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31C3ED9B-0970-482E-A839-8AD1625B707A}
+	EndGlobalSection
+EndGlobal

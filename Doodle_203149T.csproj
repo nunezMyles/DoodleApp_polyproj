@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2C1312F7-CD1C-4660-807E-F8E79B649E71}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Doodle_203149T_v2</RootNamespace>
+    <AssemblyName>Doodle_203149T_v2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainForm_203149T.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm_203149T.designer.cs">
+      <DependentUpon>MainForm_203149T.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainForm_203149T.resx">
+      <DependentUpon>MainForm_203149T.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\erasor %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brush_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brush_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color_palette.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\underline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bold_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\underline_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italic_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bold_click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italic_click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\underline_click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\erasor_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color_palette2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brush_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bold_click_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\underline_click_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italic_click_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open_file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\openfile.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open_file1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addFile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fill_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smile_emoji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shapes_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shapes_click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\square_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shape_line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shape_line2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\square_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paint_reference.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color_filter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color_palette_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color_filter_click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color_filter_click1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color_filter_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color_filter_click_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color_filter_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color_filter_click_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\panning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resize_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom_out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom_in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\panning %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\panning_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\panning_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\panning_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\panning_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunglasses-emoji-by-google.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\musical_notes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clown_emoji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\party_popper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crying_emoji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunglasses_emoji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\happy_emoji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smirk_emoji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pouting_emoji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\screaming_emoji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fire_emoji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sleepy_emoji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snowman_emoji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart_emoji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumbs_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spider_emoji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lady_bug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencilBrush_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testbrush_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testbrush_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testbrush_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testbrush_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testbrush_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testbrush_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testbrush_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testbrush_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testbrush_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testbrush_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testbrush_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testbrush_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testbrush_13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testbrush_14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testbrush_15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testbrush_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\49197366-afef-4a82-ad40-8005ee2f07da-da0c9321-c21e-418e-a012-0b4b0c8a15e9-shutterstock-1233307138-removebg-preview.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
