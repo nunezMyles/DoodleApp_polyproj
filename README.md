@@ -1,7 +1,7 @@
 # WinForm Doodle App Project for 'Application Programming' module
 
 ## Features
-- (to be documented)
+(to be documented)
 
 ## Lesson takeaways
 - improved C# skills
