@@ -1,4 +1,5 @@
-# WinForm Doodle App Project for 'Application Programming' module
+# WinForm Doodle App 
+School project for module: Application Programming
 
 ## Features
 (to be documented)
